@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ullas M | Resume</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #0f172a;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .nav-bar {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .back-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .back-btn:hover {
+            background: #8b5cf6;
+            border-color: #8b5cf6;
+            box-shadow: 0 4px 15px rgba(139, 92, 246, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .resume-container {
+            max-width: 900px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background: rgba(30, 41, 59, 0.6);
+            backdrop-filter: blur(12px);
+            padding: 20px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        .resume-img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-bar">
+        <a href="./index.html" class="back-btn">← Back to Portfolio</a>
+        <div style="margin-left: auto; display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end;">
+            <a href="./assets/resume-page1.jpeg" download="Ullas_M_Resume_Page1.jpeg" class="back-btn" style="background: rgba(6, 182, 212, 0.2); border-color: #06b6d4; color: #06b6d4;">Download Page 1</a>
+            <a href="./assets/resume-page2.jpeg" download="Ullas_M_Resume_Page2.jpeg" class="back-btn" style="background: rgba(6, 182, 212, 0.2); border-color: #06b6d4; color: #06b6d4;">Download Page 2</a>
+        </div>
+    </div>
+
+    <div class="resume-container">
+        <img src="./assets/resume-page1.jpeg" alt="Resume Page 1" class="resume-img">
+        <img src="./assets/resume-page2.jpeg" alt="Resume Page 2" class="resume-img">
+    </div>
+
+</body>
+</html>
